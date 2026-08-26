@@ -1,0 +1,6 @@
+encryptor
+encrypted.bin
+decrypted.txt
+sample.txt
+test_tmp/
+.DS_Store
