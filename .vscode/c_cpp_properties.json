@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "Linux/macOS",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/include",
+        "/usr/local/include",
+        "/opt/homebrew/opt/openssl@3/include"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
+}

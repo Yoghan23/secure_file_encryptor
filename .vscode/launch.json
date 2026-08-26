@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Encryptor",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/encryptor",
+      "args": ["-e", "sample.txt", "encrypted.bin"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "preLaunchTask": "Build with Makefile"
+    }
+  ]
+}
